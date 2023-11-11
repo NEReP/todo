@@ -37,7 +37,7 @@ body{
    font-size: 24px;
 }
 .toDo {
-   margin-top: 130px;
+   margin-top: 20%;
    padding: 50px;
    background-color: rgb(44, 41, 41) ;
    font-size: clamp(1rem, 0.6rem + 2vw, 1.5rem);
