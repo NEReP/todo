@@ -19,7 +19,7 @@ body{
    margin-bottom: 60px;
 }
 .toDo__list-completed__title{
-   font-size: 24px;
+   font-size: clamp(1rem, 0.6rem + 2vw, 1.5rem);
 
 }
 /* .toDo__list-completed{
@@ -37,7 +37,7 @@ body{
    font-size: 24px;
 }
 .toDo {
-   margin-top: 20%;
+   margin-top: 130px;
    padding: 50px;
    background-color: rgb(44, 41, 41) ;
    font-size: clamp(1rem, 0.6rem + 2vw, 1.5rem);
@@ -132,4 +132,11 @@ body{
 .dis:hover{
    background-color: #272727;
 
+}
+
+@media screen and (max-width:700px) {
+   .toDo{
+      margin-top: 20%;
+   }
+   
 }
