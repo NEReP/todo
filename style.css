@@ -115,7 +115,7 @@ body{
 }
 .btn{
    background-color: #00000063;
-   font-size: 24px;
+   font-size: clamp(1rem, 0.6rem + 2vw, 1.5rem);
    color: #fff;
    width: 100%;
    padding: 10px;
